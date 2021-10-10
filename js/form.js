@@ -7,10 +7,11 @@ class Form{
        this.reset = createButton('Reset');
     }
     hide() {
-        this.greeting.hide();
+     
         this.button.hide();
         this.input.hide();
         this.title.hide();
+        this.greeting.hide();
     }
     display() {
         this.title.html("FRUIT CATCHER");
